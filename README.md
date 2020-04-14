@@ -10,3 +10,5 @@ requests,
 beautifulsoup4 > BeautifulSoup,
 openpyxl,
 sys
+
+Here you can find my vlog (chage log) where I make posts every week. https://zen.yandex.ru/id/5e0afc97bc251400b0dba900 (Russian)
