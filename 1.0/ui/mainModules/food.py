@@ -96,6 +96,7 @@ def findOpen():
                 b += 1
             if inst.attrs["class"] == closed:
                 b += 1
+    print(openInstList)
     return openInstList    
 
 #if user didn't choose opened institutions
@@ -109,4 +110,5 @@ def showFood():
             instList.append(sheet["A" + str(institution)].value)
         if sheet["A" + str(institution)].value == None:
             break
+    print(instList)
     return instList
