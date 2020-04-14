@@ -1,0 +1,11 @@
+coffe = https://www.yell.ru/cheliabinsk/top/restorany/[area]/?cat=422&page=
+confect = https://www.yell.ru/cheliabinsk/top/restorany/[area]/?cat=424&page=
+fastFood = https://www.yell.ru/cheliabinsk/top/restorany/[area]/?cat=418&page=
+pizza = https://www.yell.ru/cheliabinsk/top/restorany/[area]/?cat=425&page=
+sushi = https://www.yell.ru/cheliabinsk/top/restorany/[area]/?cat=288&page=
+vegan = https://www.yell.ru/cheliabinsk/top/restorany/[area]/?cat=303
+areas =
+tsentralnyiy
+kalininskiy
+kurchatovskiy
+leninskiy
