@@ -22,8 +22,10 @@ def except1():
     if ui.comboBox_2.currentText() == "ВИД ЕДЫ":
         appSetup.Dialog.show()
     else:
+        #if you're editing this code, you can test food functions here
         food.showFood()
 #app logic
+#the first "НАЙТИ" button
 ui.pushButton.clicked.connect(except1)
 
 #Run main loop 
