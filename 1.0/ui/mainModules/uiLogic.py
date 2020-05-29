@@ -2,10 +2,16 @@
 import sys
 from PyQt5 import QtCore, QtGui, QtWidgets
 import appSetup
+
 #mainWindow
-from appSetup import MainWindow, ui, app
+from appSetup import MainWindow, mainUi, app
+
+#foodFind window
+from appSetup import foodWin, foodWindowUi, foodFindWin
+
 #noAreaOrCatException
 from appSetup import Dialog
+
 #module "food" need it
 import requests
 from bs4 import BeautifulSoup
@@ -17,16 +23,11 @@ appSetup.MainWindow.show()
 
 #hook logic
 def except1():
-    if ui.comboBox.currentText() == "РАЙОН":
-        appSetup.Dialog.show()
-    if ui.comboBox_2.currentText() == "ВИД ЕДЫ":
-        appSetup.Dialog.show()
-    else:
-        #if you're editing this code, you can test food functions here
-        food.showFood()
-#app logic
-#the first "НАЙТИ" button
-ui.pushButton.clicked.connect(except1)
+    food.food_in_window()
+    foodWin.show()
 
-#Run main loop 
+#app logic
+mainUi.pushButton.clicked.connect(except1)
+
+#Run main loop
 sys.exit(app.exec_())
